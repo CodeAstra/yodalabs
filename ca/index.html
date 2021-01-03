@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>Yoda Labs - Full Stack Development</title>
+    <meta
+      name="description"
+      content="Jedi Master Full Stack Engineers for startups scaling at warp speed"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <style>
+      html,
+      body {
+        font-family: "Montserrat", sans-serif;
+        background-color: #2c292d;
+        color: #fdf9f3;
+      }
+
+      .logo-container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+      }
+
+      svg#code-astra-logo {
+        width: 60vmin;
+        height: 16vmin;
+        stroke: url(#code-astra-logo-gradient);
+        stroke-width: 3px;
+        stroke-linejoin: bevel;
+        fill: url(#code-astra-logo-gradient);
+        fill-opacity: 0;
+        paint-order: stroke;
+      }
+
+      .tagline {
+        font-size: 2.6vmin;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 1em;
+      }
+
+      .tagline p:first-child {
+        letter-spacing: 0.11em;
+      }
+
+      .tagline p:last-child {
+        letter-spacing: 0.06em;
+      }
+
+      .tagline strong,
+      .footer-link {
+        display: inline-block;
+        background: linear-gradient(30deg, #fc9867, #ff6188);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+
+      .footer-link {
+        font-size: 2vmin;
+        letter-spacing: 0.12em;
+        position: absolute;
+        text-align: center;
+        bottom: 2em;
+        left: 0;
+        right: 0;
+      }
+
+      @keyframes path-anim {
+        to {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      @keyframes logo-fill-anim {
+        to {
+          stroke-width: 0;
+          fill-opacity: 1;
+        }
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="logo-container">
+      <svg
+        width="664.1mm"
+        height="285.3mm"
+        viewBox="0 0 664.1 285.3"
+        xmlns="http://www.w3.org/2000/svg"
+        id="code-astra-logo"
+      >
+        <defs>
+          <linearGradient
+            id="code-astra-logo-gradient"
+            x1="1"
+            x2="664"
+            y1="285"
+            y2="1"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#fc9867" offset="0" />
+            <stop stop-color="#ff6188" offset="1" />
+          </linearGradient>
+        </defs>
+        <g transform="translate(445.85 88.099)">
+          <path
+            d="m-377.06 41.018q-19.579 0-35.278-8.1139-15.699-8.2903-24.694-22.931-8.8194-14.817-8.8194-33.514t8.8194-33.338q8.9958-14.817 24.694-22.931 15.699-8.2903 35.278-8.2903 17.992 0 32.103 6.35 14.111 6.35 23.283 18.344l-26.282 23.46q-11.465-14.464-26.988-14.464-13.053 0-20.99 8.4667-7.9375 8.2903-7.9375 22.401t7.9375 22.578q7.9375 8.2903 20.99 8.2903 15.522 0 26.988-14.464l26.282 23.46q-9.1722 11.994-23.283 18.344-14.111 6.35-32.103 6.35z"
+          />
+          <path
+            d="m-203.43-88.013c-20.085 16.151-40.603 31.829-60.414 48.279-3.486 5.3032-1.191 11.978-1.8422 17.903 0.21864 5.6051-1.5002 12.589 3.8383 16.428 19.512 15.383 38.939 30.899 58.418 46.335-3e-3 -12.731 0.3794-25.461 0.13134-38.192-2.4682-7.6643-10.747-10.764-16.24-15.892-3.6726-3.6819-11.739-7.3427-12.652-11.038 9.0186-7.2866 18.836-13.696 27.204-21.721 3.394-5.7357 1.1543-12.703 1.7262-19.004-0.0563-7.6998-0.11252-15.4-0.16878-23.099zm6.3433 0c3e-3 12.731-0.37939 25.461-0.13133 38.192 2.4683 7.6643 10.747 10.764 16.24 15.892 3.6726 3.682 11.74 7.343 12.652 11.038-9.0186 7.2864-18.836 13.696-27.204 21.72-3.394 5.7357-1.1543 12.703-1.7262 19.004 0.0563 7.6998 0.11252 15.4 0.16878 23.099 20.085-16.15 40.603-31.829 60.414-48.279 3.4866-5.3032 1.1914-11.978 1.8426-17.904-0.21847-5.6051 1.5-12.589-3.8388-16.427-19.52-15.372-38.933-30.907-58.418-46.336z"
+          />
+          <path
+            d="m-82.017-85.276h60.854q20.638 0 36.336 7.5847 15.875 7.4083 24.518 21.343 8.8194 13.935 8.8194 32.808t-8.8194 32.808q-8.6431 13.935-24.518 21.519-15.699 7.4083-36.336 7.4083h-60.854zm59.09 91.017q13.406 0 21.343-7.5847 8.1139-7.7611 8.1139-21.696t-8.1139-21.519q-7.9375-7.7611-21.343-7.7611h-17.463v58.561z"
+          />
+          <path
+            d="m218.08 6.7986v31.397h-102.66v-123.47h100.37v31.397h-59.443v14.464h52.211v29.986h-52.211v16.228z"
+          />
+          <path
+            d="m-376.88 71.614-68.968 123.47 68.968-48.154 69.497 48.154z"
+          />
+          <path
+            d="m-246.26 197.2q-14.64 0-28.399-3.8806-13.582-4.0569-21.872-10.407l9.7014-21.519q7.9375 5.8208 18.874 9.3486t21.872 3.5278q12.171 0 17.992-3.5278 5.8208-3.7042 5.8208-9.7014 0-4.4097-3.5278-7.232-3.3514-2.9986-8.8194-4.7625-5.2917-1.7639-14.464-3.8806-14.111-3.3514-23.107-6.7028-8.9958-3.3514-15.522-10.76-6.35-7.4083-6.35-19.756 0-10.76 5.8208-19.403 5.8208-8.8194 17.463-13.935 11.818-5.1153 28.751-5.1153 11.818 0 23.107 2.8222 11.289 2.8222 19.756 8.1139l-8.8194 21.696q-17.11-9.7014-34.219-9.7014-11.994 0-17.815 3.8806-5.6444 3.8806-5.6444 10.231 0 6.35 6.5264 9.525 6.7028 2.9986 20.285 5.9972 14.111 3.3514 23.107 6.7028t15.346 10.583q6.5264 7.232 6.5264 19.579 0 10.583-5.9972 19.403-5.8208 8.6431-17.639 13.758-11.818 5.1153-28.751 5.1153z"
+          />
+          <path
+            d="m-128.08 94.897h-39.511v-23.283h107.6v23.283h-39.511v100.19h-28.575z"
+          />
+          <path
+            d="m41.603 195.09-23.813-34.396h-26.282v34.396h-28.575v-123.47h53.446q16.404 0 28.399 5.4681 12.171 5.4681 18.697 15.522 6.5264 10.054 6.5264 23.813 0 13.758-6.7028 23.813-6.5264 9.8778-18.697 15.169l27.693 39.688zm-0.52917-78.669q0-10.407-6.7028-15.875-6.7028-5.6445-19.579-5.6445h-23.283v43.039h23.283q12.876 0 19.579-5.6444 6.7028-5.6444 6.7028-15.875z"
+          />
+          <path d="m148.76 71.614-68.968 123.47 68.968-48.154 69.497 48.154z" />
+        </g>
+      </svg>
+
+      <div class="tagline">
+        <p><strong>Jedi Master</strong> Full Stack Engineers</p>
+        <p>for startups scaling at <strong>warp speed</strong></p>
+      </div>
+    </div>
+
+    <a class="footer-link" href="https://www.codeastra.com"
+      >CodeAstra Software LLP</a
+    >
+
+    <script>
+      const logo = document.querySelector("#code-astra-logo");
+      const paths = document.querySelectorAll("#code-astra-logo path");
+      const pathAnimDuration = 1000;
+      const pathAnimStepDuration = 300;
+      for (let [pathIndex, path] of [...paths].entries()) {
+        const pathLength = Math.round(path.getTotalLength());
+        path.style.strokeDasharray = pathLength;
+        path.style.strokeDashoffset = pathLength;
+        const pathAnimDelay = pathIndex * pathAnimStepDuration;
+        path.style.animation = `path-anim ${pathAnimDuration}ms ease-in-out forwards ${pathAnimDelay}ms`;
+        const fillRevealDelay = pathAnimStepDuration * 7 + pathAnimDuration;
+        logo.style.animation = `logo-fill-anim ${pathAnimDuration}ms ease-in-out forwards ${fillRevealDelay}ms`;
+      }
+    </script>
+  </body>
+</html>
