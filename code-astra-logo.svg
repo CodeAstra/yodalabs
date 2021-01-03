@@ -8,10 +8,10 @@
   <defs>
     <linearGradient
       id="code-astra-logo-gradient"
-      x1="1"
-      x2="664"
-      y1="285"
-      y2="1"
+      x1="-445"
+      x2="219"
+      y1="197"
+      y2="-88"
       gradientUnits="userSpaceOnUse"
     >
       <stop stop-color="#fc9867" offset="0" />
